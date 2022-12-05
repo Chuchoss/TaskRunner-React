@@ -1,0 +1,31 @@
+.topContent {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 40px;
+}
+
+.mainContent {
+  display: grid;
+  grid-template-columns: minmax(auto, 296px) minmax(auto, 952px);
+  column-gap: 32px;
+  margin-bottom: 32px;
+}
+
+.leftBlocks {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.title {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 33px;
+  color: var(--color-dark);
+}
+
+.bottomBlocks {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 32px;
+}

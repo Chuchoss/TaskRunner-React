@@ -1,0 +1,42 @@
+.column {
+  position: relative;
+  cursor: pointer;
+  background-color: var(--color-grey);
+  width: 77px;
+  transition: background-color 0.3s ease;
+  translate: 0 -100%;
+  &:first-child {
+    margin-left: 56px;
+  }
+  &::after {
+    content: attr(data-text);
+    cursor: pointer;
+    position: absolute;
+    font-size: 24px;
+    line-height: 29px;
+    bottom: -40px;
+    left: 50%;
+    translate: -50%;
+    color: var(--color-dark-grey);
+    transition: color 0.3s ease;
+  }
+}
+
+.didsbledActive::after {
+  color: var(--color-ultralight-tomato);
+}
+
+.notActive {
+  background-color: var(--color-ultralight-tomato);
+}
+
+.didsbled {
+  height: 5px;
+}
+
+.active {
+  background-color: var(--color-tomato);
+  &::after {
+    color: var(--color-tomato);
+  }
+}

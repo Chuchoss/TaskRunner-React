@@ -1,0 +1,22 @@
+.mainPage {
+  display: flex;
+  justify-content: space-between;
+  column-gap: 16px;
+}
+
+.instructionList {
+  margin: 0;
+  padding-left: 20px;
+  margin-bottom: 25px;
+}
+
+.instructionTitle {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 33px;
+  margin: 0;
+}
+
+.leftSide {
+  max-width: 42%;
+}

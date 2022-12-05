@@ -1,0 +1,12 @@
+.block {
+  background-color: var(--color-ultraLigh-grey);
+  padding: 25px;
+  position: relative;
+  height: 100%;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

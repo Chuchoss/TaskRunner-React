@@ -1,0 +1,28 @@
+:root {
+  // base
+  --font-family: "SF UI Display", sans-serif;
+  --content-width: 1240px;
+  --container-offset: 30px;
+  --containers-offset: 100px;
+  --container-width: calc(var(--content-width) + (var(--container-offset) * 2));
+
+  // colors
+  --color-white: #fff;
+  --color-black: #000;
+  --color-dark: #333333;
+  --color-dark-tomato: #b7280f;
+  --color-tomato: #dc3e22;
+  --color-light-tomato: #ee735d;
+  --color-ultralight-tomato: #ea8979;
+  --color-light-orange: #ffdda9;
+  --color-light-purple: #dfdcfe;
+  --color-light-blue: #c5f1ff;
+  --color-green: #899441;
+  --color-light-green: #a8b64f;
+  --color-ultralight-green: hsla(68, 59%, 72%, 0.767);
+  --color-dark-grey: #999999;
+  --color-grey: #c4c4c4;
+  --color-light-grey: #e5e5e5;
+  --color-ultraLigh-grey: #f4f4f4;
+  --color-ultraLighSecond-grey: #e4e4e4;
+}

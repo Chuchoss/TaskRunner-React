@@ -1,0 +1,13 @@
+.dropdownList {
+  position: absolute;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  flex: 100%;
+  z-index: 2;
+}
+
+.dropdownWrapper {
+  position: relative;
+  flex-basis: 370px;
+}

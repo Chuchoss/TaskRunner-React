@@ -1,0 +1,8 @@
+.settingsWrapper {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: grid;
+  row-gap: 20px;
+  grid-template-columns: 1fr 1fr;
+}

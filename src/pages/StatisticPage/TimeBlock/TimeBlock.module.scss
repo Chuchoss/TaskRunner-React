@@ -1,0 +1,29 @@
+.wrapper {
+  background-color: var(--color-ultraLigh-grey);
+  min-height: 260px;
+  padding: 25px;
+}
+
+.paragraph {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  color: var(--color-dark);
+  margin: 0;
+}
+
+.blockTitle {
+  margin-top: 0;
+  margin-bottom: 14px;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 33px;
+  color: var(--color-dark);
+}
+
+.time {
+  color: var(--color-tomato);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 28px;
+}

@@ -1,0 +1,114 @@
+html {
+  box-sizing: border-box;
+  height: 100%;
+  overflow-x: hidden;
+  margin-right: calc(-1 * (100vw - 100%));
+  font-family: var(--font-family, sans-serif);
+  -webkit-text-size-adjust: 100%;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  min-width: 360px;
+  min-height: 100%;
+  font-weight: 300;
+  font-size: 16px;
+  color: var(--color-light-dark);
+  background-color: var(--color-white);
+}
+
+button {
+  cursor: pointer;
+}
+
+img {
+  height: auto;
+  max-width: 100%;
+  object-fit: cover;
+}
+
+a {
+  text-decoration: none;
+}
+
+.list-reset {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.visually-hidden {
+  position: absolute;
+  overflow: hidden;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  width: 1px;
+  height: 1px;
+  clip: rect(0 0 0 0);
+}
+
+.container {
+  margin: 0 auto;
+  padding-left: var(--container-offset);
+  padding-right: var(--container-offset);
+  padding-top: var(--containers-offset);
+  padding-bottom: var(--containers-offset);
+  max-width: var(--container-width);
+}
+
+.canclBtn,
+.removeBtn {
+  outline: none;
+  border: none;
+  transition: background-color 0.3s ease;
+}
+
+.canclBtn:focus-visible {
+  background-color: var(--color-ultraLigh-grey);
+}
+
+.removeBtn:focus-visible {
+  background-color: var(--color-dark-tomato);
+}
+
+.removeBtn {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  padding: 19px 50px;
+  margin-bottom: 10px;
+  background-color: var(--color-tomato);
+  color: var(--color-white);
+  transition: background-color 0.3s ease;
+  &:hover {
+    background-color: var(--color-dark-tomato);
+  }
+}
+
+.canclBtn {
+  padding: 0;
+  color: var(--color-dark);
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 17px;
+  background-color: transparent;
+  border-bottom: 1px solid var(--color-dark);
+  transition: border-color, 0.3s easy, color 0.3s ease;
+  &:hover {
+    color: var(--color-black);
+    border-color: var(--color-black);
+  }
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}

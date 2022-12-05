@@ -1,0 +1,29 @@
+.pomadorHeader {
+  display: flex;
+  justify-content: space-between;
+  padding: 19px 40px;
+  background-color: var(--color-grey);
+  color: var(--color-white);
+}
+
+.pomadorHeaderRed {
+  background-color: var(--color-tomato);
+}
+
+.pomadorHeaderGreen {
+  background-color: var(--color-light-green);
+}
+
+.taskName,
+.taskNumber {
+  font-size: 16px;
+  line-height: 17px;
+}
+
+.taskName {
+  font-weight: 700;
+}
+
+.taskNumber {
+  font-weight: 400;
+}

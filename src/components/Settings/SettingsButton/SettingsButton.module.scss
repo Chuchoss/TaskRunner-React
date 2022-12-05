@@ -1,0 +1,42 @@
+.settingsButton {
+  font-size: 30px;
+  color: white;
+  border-radius: 50%;
+  display: inline-block;
+  transition: all 0.2s;
+  position: relative;
+  padding: 3px 10px;
+  position: relative;
+  top: 0;
+  cursor: pointer;
+  margin: 0 5px;
+  border: 1px solid black;
+  &.minuse {
+    background: var(--color-ultralight-tomato);
+    box-shadow: 0 5px 0px var(--color-light-tomato);
+  }
+  &.pluse {
+    background: var(--color-light-green);
+    box-shadow: 0 5px 0px var(--color-green);
+  }
+}
+
+.settingsButton:active {
+  top: 3px;
+  transition: all 0.2s;
+  &.pluse {
+    box-shadow: 0 2px 0px var(--color-light-green);
+  }
+  &.minuse {
+    box-shadow: 0 2px 0px var(--color-ultralight-tomato);
+  }
+}
+
+.settingsButton:hover {
+  &.pluse {
+    background-color: var(--color-green);
+  }
+  &.minuse {
+    background-color: var(--color-light-tomato);
+  }
+}

@@ -1,0 +1,32 @@
+.container {
+}
+
+.listContainer {
+  position: relative;
+}
+
+.list {
+  position: absolute;
+  z-index: 2;
+  transform: translateX(-50%);
+  left: 50%;
+  top: 10px;
+  width: fit-content;
+  height: 100%;
+}
+
+.button {
+  display: flex;
+  align-items: center;
+  padding: 5px;
+  border: none;
+  outline: none;
+  background-color: transparent;
+  width: fit-content;
+  height: auto;
+  transition: background-color 0.3s ease;
+  &:hover,
+  &:focus-visible {
+    background-color: var(--color-ultraLigh-grey);
+  }
+}

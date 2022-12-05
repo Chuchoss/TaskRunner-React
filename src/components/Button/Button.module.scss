@@ -1,0 +1,47 @@
+.emptyButton {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 15px 42px;
+	border-width: 2px;
+	border-style: solid;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 17px;
+	border-color: var(--color-tomato);
+	color: var(--color-tomato);
+	background-color: transparent;
+	transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
+		&:hover,
+		&:focus-visible {
+			background-color: var(--color-tomato);
+			color: var(--color-white);
+		}
+		&:disabled {
+			cursor: default;
+			background: transparent;
+			border-color: var(--color-grey);
+			color: var(--color-grey);
+		}
+}
+
+.fielldButton {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 15px 42px;
+	border-width: 2px;
+	border-style: solid;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 17px;
+	border-color: var(--color-light-green);
+	background-color: var(--color-light-green);
+	color: var(--color-white);
+	transition: background-color 0.3s ease, border-color 0.3s ease;
+		&:hover,
+		&:focus-visible {
+			border-color: var(--color-green);;
+			background-color: var(--color-green);;
+		}
+}

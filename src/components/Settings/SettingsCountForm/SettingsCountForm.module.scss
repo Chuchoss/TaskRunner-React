@@ -1,0 +1,25 @@
+.pomadorsCountWrapper {
+  display: flex;
+  align-items: center;
+}
+
+.inputWrapper {
+  align-self: flex-end;
+}
+
+.input {
+  font-size: 25px;
+  text-align: center;
+  outline: none;
+  border-left: 0;
+  border-right: 0;
+  border-top: 0;
+  margin-right: 5px;
+  max-width: 100px;
+  padding: 0 10px;
+}
+
+.text {
+  position: relative;
+  top: 5px;
+}

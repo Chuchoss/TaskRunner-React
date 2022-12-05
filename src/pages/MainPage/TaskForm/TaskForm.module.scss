@@ -1,0 +1,50 @@
+.form {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-bottom: 25px;
+}
+
+.input {
+  padding: 19px 15px;
+  min-width: 71%;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 17px;
+  border: none;
+  outline: none;
+  background-color: var(--color-ultraLigh-grey);
+  margin-bottom: 25px;
+  &::placeholder {
+    color: var(--color-dark-grey);
+  }
+}
+
+.errorText {
+  position: absolute;
+  bottom: 53px;
+  color: var(--color-tomato);
+}
+
+.time {
+  color: var(--color-dark-grey);
+}
+
+// .example-enter {
+//   opacity: 0.01;
+// }
+
+// .example-enter.example-enter-active {
+//   opacity: 1;
+//   transition: opacity 500ms ease-in;
+// }
+
+// .example-exit {
+//   opacity: 1;
+// }
+
+// .example-exit.example-exit-active {
+//   opacity: 0.01;
+//   transition: opacity 300ms ease-in;
+// }

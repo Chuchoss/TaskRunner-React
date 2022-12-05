@@ -1,0 +1,57 @@
+.item {
+  display: flex;
+  align-items: center;
+  padding: 15px 0;
+  border-top: 1px solid var(--color-ultraLighSecond-grey);
+  width: 100%;
+  cursor: grab;
+  &:last-child {
+    border-bottom: 1px solid var(--color-ultraLighSecond-grey);
+  }
+}
+
+.taskNumber,
+.taskName {
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 17px;
+}
+
+.taskNumber {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 25px;
+  min-height: 25px;
+  margin-right: 18px;
+
+  &::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    bottom: 2px;
+    z-index: 2;
+    border: 1px solid var(--color-ultraLighSecond-grey);
+    border-radius: 100%;
+  }
+}
+
+.taskName {
+  max-width: 75%;
+  margin-right: auto;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.editInput {
+  outline: none;
+  border: none;
+  margin-right: auto;
+  background-color: var(--color-ultraLigh-grey);
+}
+
+.drag {
+  background: var(--color-grey);
+}

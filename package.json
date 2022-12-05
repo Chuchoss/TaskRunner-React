@@ -1,0 +1,59 @@
+{
+  "name": "pomadoro",
+  "version": "1.0.0",
+  "private": true,
+  "homepage": "https://github.com/Chuchoss/TaskRunner-React.git",
+  "dependencies": {
+    "@redux-devtools/extension": "^3.2.2",
+    "@reduxjs/toolkit": "^1.8.3",
+    "classnames": "^2.3.1",
+    "css-loader": "^6.7.1",
+    "moment": "^2.29.4",
+    "normalize.css": "^8.0.1",
+    "plural-ru": "^2.0.2",
+    "react": "18.1.0",
+    "react-dom": "18.1.0",
+    "react-outside-click-handler": "^1.3.0",
+    "react-redux": "^8.0.1",
+    "react-router-dom": "^6.3.0",
+    "react-scripts": "^5.0.1",
+    "redux": "^4.2.0",
+    "redux-persist": "^6.0.0",
+    "redux-thunk": "^2.4.1",
+    "sass": "^1.54.0",
+    "sass-loader": "^13.0.2",
+    "style-loader": "^3.3.1",
+    "uuid": "^9.0.0",
+    "uuidv4": "^6.2.13"
+  },
+  "devDependencies": {
+    "eslint": "8.16.0",
+    "gh-pages": "^4.0.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "deploy": "gh-pages -d build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "predeploy": "react-scripts build"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

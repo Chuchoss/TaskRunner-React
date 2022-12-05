@@ -1,0 +1,21 @@
+.row {
+  display: flex;
+}
+
+.time {
+  white-space: nowrap;
+  position: relative;
+  top: -8px;
+}
+
+.hr {
+  margin: 0 32px 83px 0;
+  width: 85%;
+  &::after {
+    // content: attr(data-time);
+    // white-space: nowrap;
+    // position: absolute;
+    // left: 104%;
+    // top: -10px;
+  }
+}

@@ -1,0 +1,24 @@
+.list {
+  position: relative;
+  padding: 6px 0;
+  margin: 0;
+  list-style: none;
+  background: var(--color-white);
+  border: 1px solid #c4c4c4;
+
+  &::before,
+  &::after {
+    content: "";
+    position: absolute;
+    top: -8px;
+    left: 50%;
+    transform: translateX(-50%);
+    border-bottom: 10px solid var(--color-white);
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+  }
+  &::before {
+    top: -10px;
+    border-bottom-color: var(--color-grey);
+  }
+}

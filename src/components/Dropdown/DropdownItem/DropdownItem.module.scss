@@ -1,0 +1,27 @@
+.dropdownButton {
+  border: none;
+  background-color: transparent;
+  padding: 0;
+  outline: none;
+  display: inline-flex;
+  align-items: center;
+  width: 100%;
+  padding: 7.5px 15px;
+  transition: background-color 0.3s ease;
+  &:disabled {
+    cursor: not-allowed;
+    svg path {
+      fill: var(--color-grey);
+    }
+  }
+  &:hover {
+    background-color: var(--color-ultraLigh-grey);
+  }
+  &:focus-visible {
+    background-color: var(--color-ultraLigh-grey);
+  }
+}
+
+.dropdownItem {
+  padding: 0;
+}
