@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/Chuchoss/TaskRunner-React.git/static/css/main.a472570a.css",
+    "main.js": "/Chuchoss/TaskRunner-React.git/static/js/main.32fe9a22.js",
+    "static/media/SF-UI-Semibold.woff2": "/Chuchoss/TaskRunner-React.git/static/media/SF-UI-Semibold.25642f3c7602aed0a720.woff2",
+    "static/media/SF-UI-Thin.woff2": "/Chuchoss/TaskRunner-React.git/static/media/SF-UI-Thin.bbe2d3284edb22d2e8e2.woff2",
+    "static/media/SF-UI-Light.woff2": "/Chuchoss/TaskRunner-React.git/static/media/SF-UI-Light.ead19a3b4c0e98561770.woff2",
+    "static/media/SF-UI-Medium.woff2": "/Chuchoss/TaskRunner-React.git/static/media/SF-UI-Medium.b7c41bf73275fdcda984.woff2",
+    "static/media/SF-UI-Bold.woff2": "/Chuchoss/TaskRunner-React.git/static/media/SF-UI-Bold.f66e68aa805a5357119e.woff2",
+    "static/media/SF-UI-Regular.woff2": "/Chuchoss/TaskRunner-React.git/static/media/SF-UI-Regular.4ae5f37643051a74cf43.woff2",
+    "index.html": "/Chuchoss/TaskRunner-React.git/index.html",
+    "main.a472570a.css.map": "/Chuchoss/TaskRunner-React.git/static/css/main.a472570a.css.map",
+    "main.32fe9a22.js.map": "/Chuchoss/TaskRunner-React.git/static/js/main.32fe9a22.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a472570a.css",
+    "static/js/main.32fe9a22.js"
+  ]
+}
